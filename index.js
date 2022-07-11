@@ -88,19 +88,25 @@ var countEven = 0;
 var countOdd = 0;
 if (a % 2 === 0) {
     countEven += 1;
+} else {
+    countOdd += 1;
+
 }
-countOdd += 1;
 
 if (b % 2 === 0) {
     countEven += 1;
+} else {
+    countOdd += 1;
 }
-countOdd += 1;
+
 
 
 if (c % 2 === 0) {
     countEven += 1;
+} else {
+    countOdd += 1;
 }
-countOdd += 1;
+
 
 
 console.log("3 số nguyên là", a, b, c);
